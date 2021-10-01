@@ -1,35 +1,42 @@
-.linha{
-    display: grid;
-    margin: auto;
-    top: 1174px;
-    left: 336px;
-    width: 980px;
-    border: 9px solid #CFCFCF;
-    opacity: 1;
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(57, 62, 63);
+}
+
+.line{
+    background: chartreuse;
+    width: 900px;
 }
 
 .areaVantagens{
-    margin: auto;
-    padding: auto;
-    top: 1173px;
-    left: 336px;
-    width: 1249px;
-    background: var(--branco) 0% 0% no-repeat padding-box;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 0px 0px 10px 10px;
-    opacity: 1;
-    border: solid;
+    padding: 20%;
+    display:grid;
+    column-gap: 1%;
+    row-gap: 1%;
+    justify-content: center;
+    grid-template-columns:80% 80%;
+    grid-template-rows: 10% 10%;
+    background-color: #ffffff;
+    margin: 10%;
+    box-shadow: 1px 4px 9px #00000029;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
+
 .boxImage{
-    row-gap: 10px;
+    margin: 5%;
+    height: 352px;
+    width: 351px;
     justify-content: center;
-    display: block;
-    flex-direction: column;
-    left: 100px;
-    background: var(--branco) 0% 0% no-repeat padding-box;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding: 15px;
     box-shadow: 1px 4px 9px #00000029;
     border-radius: 10px;
-    opacity: 1;
 }
