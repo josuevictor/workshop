@@ -10,7 +10,7 @@ body{
 }
 
 .line{
-    background: chartreuse;
+    background: rgb(255, 0, 0);
     width: 900px;
 }
 
